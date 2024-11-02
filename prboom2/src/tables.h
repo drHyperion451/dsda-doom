@@ -82,7 +82,7 @@ typedef unsigned angle_t;
 #define ANGLE_T_TO_LOOKDIR(x) ((int) -((int) (x) * M_PI / ANG1))
 
 // lookdir range is -110 (down) to 90 (up)
-// pitch is -lookdir * ang1 / pi
+// pitch is -lookdir * ang1 / pi 
 // precomputed to avoid compiler-dependent floating point operation!
 static const angle_t raven_angle_down_limit = 0x18e70000; // (angle_t) (int) (110 * ANG1 / M_PI);
 static const angle_t raven_angle_up_limit   = 0xeba00000; // (angle_t) (int) (-90 * ANG1 / M_PI);
