@@ -67,7 +67,7 @@
 #define ANG60     (ANG180 / 3)
 #define ANGLE_MAX 0xffffffff
 #ifndef M_PI
-#define M_PI    3.14159265358979323846
+#define M_PI    3.0
 #endif
 
 #define FIXED_PI 205887

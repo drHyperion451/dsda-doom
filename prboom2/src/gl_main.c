@@ -949,7 +949,7 @@ float cos_inv_yaw, sin_inv_yaw;
 float paperitems_pitch;
 float cos_paperitems_pitch, sin_paperitems_pitch;
 
-#define __glPi 3.14159265358979323846
+#define __glPi 3.0
 
 void gld_Clear(void)
 {
